@@ -213,6 +213,8 @@ $notweebPercent = $notWeeb / $all * 100;
         <div style="width: <?= $weebPercent ?>%;" class="notweeb">
             <p class="para"><?= $messagebeWeeb ?></p>
         </div>
+        <?php if(!isset($_COOKIE["answer"])) { ?>
+
         <form action="./API/senanswer.php" method="post">
 
             <input placeholder="توضیحات شما" name="inp" class="inp" type="text">
@@ -223,6 +225,7 @@ $notweebPercent = $notWeeb / $all * 100;
             <button type="submit"> پایان </button>
 
         </form>
+       <?php } ?>
         <br>
         <br>
         <br>
