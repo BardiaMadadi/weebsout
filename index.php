@@ -30,7 +30,7 @@ $notweebPercent = $notWeeb / $all * 100;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $weebPercent ?></title>
+    <title> weebs out </title>
 </head>
 
 <body>
@@ -215,7 +215,7 @@ $notweebPercent = $notWeeb / $all * 100;
         </div>
         <form action="./API/senanswer.php" method="post">
 
-            <input name="inp" class="inp" type="text">
+            <input placeholder="توضیحات شما" name="inp" class="inp" type="text">
             <select class="select" name="ans" id="cars">
                 <option class="option" value="not"> ویب نبودن </option>
                 <option class="option" value="be"> ویب بودن </option>
