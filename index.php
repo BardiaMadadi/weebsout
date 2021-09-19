@@ -13,8 +13,8 @@ foreach ($json as $answer) {
     }
 }
 
-$messageNotWeeb = " {$notWeeb} نفر به ویب نبودن دای دادند  ";
-$messagebeWeeb = " {$weebs} نفر به ویب بودن دای دادند  ";
+$messageNotWeeb = " {$notWeeb} نفر به ویب نبودن رای دادند  ";
+$messagebeWeeb = " {$weebs} نفر به ویب بودن رای دادند  ";
 $weebPercent = $weebs / $all * 100; 
 $notweebPercent = $notWeeb / $all * 100; 
 
